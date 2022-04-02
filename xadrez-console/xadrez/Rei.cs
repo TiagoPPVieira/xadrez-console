@@ -12,6 +12,7 @@ namespace xadrez {
         public override string ToString() {
             return "R";
         }
+<<<<<<< HEAD
 
         private bool podeMover(Posicao pos) {
             Peca p = tab.peca(pos);
@@ -95,5 +96,7 @@ namespace xadrez {
 
             return mat;
         }
+=======
+>>>>>>> parent of cb64c95 (Testes iniciais com movimentos possiveis das pecas)
     }
 }

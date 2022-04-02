@@ -19,6 +19,7 @@ namespace xadrez_console {
                         Console.Clear();
                         Tela.imprimirPartida(partida);
 
+<<<<<<< HEAD
                         Console.WriteLine();
                         Console.Write("Origem: ");
                         Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
@@ -33,6 +34,13 @@ namespace xadrez_console {
                         Console.Write("Destino: ");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validarPosicaoDeDestino(origem, destino);
+=======
+                    Console.WriteLine();
+                    Console.Write("Origem: ");
+                    Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
+                    Console.Write("Destino: ");
+                    Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
+>>>>>>> parent of cb64c95 (Testes iniciais com movimentos possiveis das pecas)
 
                         partida.realizaJogada(origem, destino);
                     }

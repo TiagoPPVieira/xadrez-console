@@ -1,5 +1,5 @@
 ﻿namespace tabuleiro {
-    abstract class Peca {
+    class Peca {
 
         public Posicao posicao { get; set; }
         public Cor cor { get; protected set; }
@@ -18,6 +18,7 @@
         public void incrementarQteMovimentos() {
             qteMovimentos++;
         }
+<<<<<<< HEAD
 
         public void decrementarQteMovimentos() {
             qteMovimentos--;
@@ -44,5 +45,7 @@
 >>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
 =======
 >>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
+=======
+>>>>>>> parent of cb64c95 (Testes iniciais com movimentos possiveis das pecas)
     }
 }
