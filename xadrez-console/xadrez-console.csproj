@@ -52,11 +52,14 @@
     <Compile Include="tabuleiro\TabuleiroException.cs" />
     <Compile Include="Tela.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="xadrez\Bispo.cs" />
     <Compile Include="xadrez\Cavalo.cs" />
     <Compile Include="xadrez\Dama.cs" />
     <Compile Include="xadrez\PartidaDeXadrez.cs" />
     <Compile Include="xadrez\Peao.cs" />
+=======
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
 =======
 >>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
     <Compile Include="xadrez\PosicaoXadrez.cs" />

@@ -13,6 +13,7 @@
             this.qteMovimentos = 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         public void incrementarQteMovimentos() {
             qteMovimentos++;
@@ -39,6 +40,8 @@
         }
 
         public abstract bool[,] movimentosPossiveis();
+=======
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
 =======
 >>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
     }

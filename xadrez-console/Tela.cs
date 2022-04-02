@@ -76,7 +76,10 @@ namespace xadrez_console {
                 Console.WriteLine();
             }
             Console.WriteLine("  a b c d e f g h");
+<<<<<<< HEAD
             Console.BackgroundColor = fundoOriginal;
+=======
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
         }
 
         public static void imprimirPeca(Peca peca) {

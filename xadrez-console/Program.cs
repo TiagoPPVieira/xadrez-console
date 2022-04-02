@@ -14,6 +14,7 @@ namespace xadrez_console {
                 tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 2));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     try {
                         Console.Clear();
                         Tela.imprimirPartida(partida);
@@ -42,6 +43,11 @@ namespace xadrez_console {
                 }
                 Console.Clear();
                 Tela.imprimirPartida(partida);
+=======
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
+
+                Tela.imprimirTabuleiro(tab);
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
 =======
                 tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
 
