@@ -7,10 +7,13 @@ namespace xadrez_console {
         static void Main(string[] args) {
 
             try {
-                PartidaDeXadrez partida = new PartidaDeXadrez();
+                Tabuleiro tab = new Tabuleiro(8, 8);
 
-                while (!partida.terminada) {
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
+                tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 2));
 
+<<<<<<< HEAD
                     try {
                         Console.Clear();
                         Tela.imprimirPartida(partida);
@@ -39,6 +42,11 @@ namespace xadrez_console {
                 }
                 Console.Clear();
                 Tela.imprimirPartida(partida);
+=======
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
+
+                Tela.imprimirTabuleiro(tab);
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
             }
             catch (TabuleiroException e) {
                 Console.WriteLine(e.Message);

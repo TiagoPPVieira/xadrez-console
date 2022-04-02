@@ -12,6 +12,7 @@
             this.cor = cor;
             this.qteMovimentos = 0;
         }
+<<<<<<< HEAD
 
         public void incrementarQteMovimentos() {
             qteMovimentos++;
@@ -38,5 +39,7 @@
         }
 
         public abstract bool[,] movimentosPossiveis();
+=======
+>>>>>>> parent of 886a293 (Fazendo os primeiros testes de movimentacao)
     }
 }
